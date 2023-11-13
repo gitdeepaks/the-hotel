@@ -16,7 +16,7 @@ export const deleteCabin = async (id) => {
 
   if (error) {
     console.error("error deleting cabin");
-    throw new Error("cabin could not be deleted from database");
+    throw new Error("Cabin could not be deleted from database");
   }
   return data;
 };
